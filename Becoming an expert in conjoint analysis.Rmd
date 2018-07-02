@@ -1,0 +1,38 @@
+---
+title: "Becoming an expert in conjoint analysis"
+output: html_notebook
+---
+##About
+Book written by Bryan K. Orme and Keith Chrzan
+
+##Chapter 1 -- How People Choose
+
+In the conditional multinomial logit model (**MNL**), the utility function is a 
+simple linear model; the sum of the proudcuts of each of k attributes and their 
+utility weights (plus a small error term). Choice probabilities are then modeled 
+as the exponentiated utility of said choice alternative divided by the sum of 
+the exponentiated utilities of all other alternatives. However, the assumption 
+must hold that the ratio of choice probabilities for two alternatives is 
+constant (Independence of Irrelevant Alternatives, or IIA). This is also a type 
+of random utility model (RUM), becuase the utility function includes an error 
+term.
+
+MNL also assumes that attributes are additive and compensatory. An example model 
+that gets around that assumption is most notably the lexicographic choice 
+models which models choices by a "drill down by attribute" approach. However, it
+is computationally expensive compared to MNL. These and other models that get 
+around the compensatory assumption are termed *non-compensatory models*
+
+The field of behavioral economics might also stipulate that choices are not a 
+function of utility maximization, but rather regret minimization. With the right
+coding, these can still use an MNL engine, and outpredict standard RUM-MNL 
+models about half the time.  There are other models in this realm as well, but
+none have proven their superiority to RUM-based models.  
+
+In the real world, we adapt our decision models based on the situation. Some 
+might be compensatory, some might be lexicographic, some might be satisficing, 
+etc. Respondent level utility models help us capture the heterogeneity of 
+decision rules. However, because we are adaptive choosers means that we need to 
+be careful about hypothetical bias.  
+
+
