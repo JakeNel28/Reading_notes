@@ -29,10 +29,47 @@ coding, these can still use an MNL engine, and outpredict standard RUM-MNL
 models about half the time.  There are other models in this realm as well, but
 none have proven their superiority to RUM-based models.  
 
-In the real world, we adapt our decision models based on the situation. Some 
+In the real world, we adapt our decision rules based on the situation. Some 
 might be compensatory, some might be lexicographic, some might be satisficing, 
 etc. Respondent level utility models help us capture the heterogeneity of 
 decision rules. However, because we are adaptive choosers means that we need to 
 be careful about hypothetical bias.  
+
+##Chapter 2 -- Reducing hypothetical bias
+
+Hypothetical bias in choice experiments occurs when stated preference (SP) 
+differs from revealed preference (RP).
+
+Hypothetical bias inclusdes:
+
++ Lack of anonymity
++ Acquiescence
++ Strategic bias
++ Social desirability bias
+
+Basic ways to reduce hypothetical bias:
+
++ Frame using realistic scenarios
++ Use images instead of words, especially for brand logos
++ Remind respondents of budgetary restraints
+
+Ex ante instructions methods:
+
++ Honesty oaths
++ Cheap talk
++ Consequentiality scripts
+
+Ex post data corrections:
+
++ Certainty scaling adjustments (remove or weight down uncertain data)
++ Calibrate with RP indicated in the survey
++ Augment choice data with 10% fake data with RP
+
+Also, incentive alignment
+
+
+
+
+
 
 
